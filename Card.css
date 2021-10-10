@@ -1,0 +1,28 @@
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-direction: row;
+  
+    justify-content: space-around;
+  
+}
+.cards{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+   
+    
+}
+.remove{
+    border: 2px solid black;
+   margin-left: 250px;
+    border-radius: 10px;
+}
+.connect{
+    border: 2px solid black;
+  
+    border-radius: 10px;
+}
